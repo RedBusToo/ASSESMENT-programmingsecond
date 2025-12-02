@@ -7,7 +7,7 @@ def index():
     return render_template('index.html', title = 'Home', description='This is the home page')
 
 #@app.route('/about')
-#def about():
+#def about():ss
 #    return render_template('about.html', title='About', description='This is a simple Flask web app.')
 
 if __name__ == '__main__':
