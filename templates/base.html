@@ -5,12 +5,23 @@
     <link rel="stylesheet" href="css/mobile.css">
 </head>
 <body>
-    <nav>
-        <a href="/">Home</a> |
-        <a href="/about">About</a> |
+<div class="container">
+	<header>
+        <div id="logo">
+            <h1><a href="#">Welcome to cantor</a></h1>
+        	</div>
+                <nav>
+                <a href="/">Home</a> |
+                <a href="/about">About</a> |
 
-    </nav>
-    {% block content %}
-    {% endblock %}
+                </nav>
+                {% block content %}
+                {% endblock %}
+	</header>
+	<main>
+	</main>
+	<footer>
+	</footer>
+</div>
 </body>
 </html>
